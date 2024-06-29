@@ -4,3 +4,5 @@ npm install typescript -g
 tsc --init
 ## Compile Typescript file
 tsc demo.ts
+## Run JS file
+node demo
