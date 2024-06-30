@@ -67,3 +67,22 @@ let getValue = function(value=1){
     console.log(value);
 };
 getValue(10);
+
+let getFunValue = function(value=10,bouns=value*0.1){
+
+    console.log(value);
+    console.log(bouns);
+
+};
+
+getFunValue(20);
+
+let displayColor=function(message:String,...color:String[]){
+    console.log(message);
+    console.log(color);
+    for(let i in color){
+        console.log(color[i]);
+    }
+}
+
+displayColor("I lové u","Yellow","green");

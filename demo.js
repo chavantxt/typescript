@@ -50,3 +50,28 @@ var employee = {
     }
 };
 console.log(employee.greet());
+//default function parameter
+var getValue = function (value) {
+    if (value === void 0) { value = 1; }
+    console.log(value);
+};
+getValue(10);
+var getFunValue = function (value, bouns) {
+    if (value === void 0) { value = 10; }
+    if (bouns === void 0) { bouns = value * 0.1; }
+    console.log(value);
+    console.log(bouns);
+};
+getFunValue(20);
+var displayColor = function (message) {
+    var color = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        color[_i - 1] = arguments[_i];
+    }
+    console.log(message);
+    console.log(color);
+    for (var i in color) {
+        console.log(color[i]);
+    }
+};
+displayColor("I lové u", "Yellow", "green");
