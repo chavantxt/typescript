@@ -8,4 +8,5 @@ tsc demo.ts
 node demo
 ## Concept
 let is block scoped </br>
-const must be initialize 
+const must be initialize </br>
+We can not change const value</br>
