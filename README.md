@@ -6,3 +6,5 @@ tsc --init
 tsc demo.ts
 ## Run JS file
 node demo
+## Concept
+let is block scoped
