@@ -10,3 +10,4 @@ node demo
 let is block scoped </br>
 const must be initialize </br>
 We can not change const value</br>
+In file modules are read only. 
