@@ -9,3 +9,8 @@ console.log(newSet.size); //o/p : 4
 var chainSet = new Set().add("Hello").add("World");
 console.log(chainSet.size); // o/p: 2
 console.log(newSet.has(1)); //true
+//---------------WeakSet---------------
+var mysetw = new Set();
+var key = {};
+mysetw.add(key);
+console.log(mySet.size);

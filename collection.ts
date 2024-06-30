@@ -15,3 +15,13 @@ let chainSet = new Set().add("Hello").add("World");
 console.log(chainSet.size); // o/p: 2
 
 console.log(newSet.has(1)); //true
+
+//---------------WeakSet---------------
+
+let mysetw=new Set ();
+let key ={};
+mysetw.add(key);
+console.log(mySet.size);
+key = null;
+console.log(mySet.size);
+  
