@@ -62,4 +62,16 @@ let myMap5 = new WeakMap();
  console.log(myMap5.get(obb1)); 
  let obb2 = null;
  // myMap5.set(obb2,"myMap5"); - Thiśwe can not assign
-  
+
+ //-------------Symbol-------------------------
+
+ let s=Symbol("First Symbol");
+ console.log(typeof s);
+console.log(s.toString());
+
+let s2=Symbol();
+let s3=Symbol();
+console.log(s.valueOf());
+console.log(s2===s3);
+
+

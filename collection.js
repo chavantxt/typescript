@@ -40,3 +40,18 @@ function arrayFunction(element, index, array) {
     console.log("arr[" + index + "] = " + element);
 }
 ;
+//----------------WeakMap----------------------
+var myMap5 = new WeakMap();
+var obb1 = {};
+myMap5.set(obb1, "Hello World");
+console.log(myMap5.get(obb1));
+var obb2 = null;
+// myMap5.set(obb2,"myMap5"); - Thiśwe can not assign
+//-------------Symbol-------------------------
+var s = Symbol("First Symbol");
+console.log(typeof s);
+console.log(s.toString());
+var s2 = Symbol();
+var s3 = Symbol();
+console.log(s.valueOf());
+console.log(s2 === s3);
