@@ -54,3 +54,12 @@ function arrayFunction(element:any,index:any,array:any[]){
     console.log("arr["+index+"] = "+element);
 };
 
+//----------------WeakMap----------------------
+
+let myMap5 = new WeakMap();
+ let obb1 = {};
+ myMap5.set(obb1,"Hello World");
+ console.log(myMap5.get(obb1)); 
+ let obb2 = null;
+ // myMap5.set(obb2,"myMap5"); - Thiśwe can not assign
+  
