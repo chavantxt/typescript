@@ -22,6 +22,20 @@ let mysetw=new Set ();
 let key ={};
 mysetw.add(key);
 console.log(mySet.size);
-key = null;
 console.log(mySet.size);
-  
+
+//-----------------Map-------------------
+
+let myMap = new Map();
+myMap.set("fname","Chandlar")
+myMap.set("age",30);
+console.log(myMap.get("fname")); 
+let ob1= {};
+let ob2={};
+myMap.set(ob1,10);
+myMap.set(ob2,20);
+console.log(myMap.get(ob1));
+console.log(myMap.size);
+console.log(myMap.has(20));
+myMap.delete("fname");
+console.log(myMap.size);

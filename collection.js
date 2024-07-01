@@ -14,3 +14,18 @@ var mysetw = new Set();
 var key = {};
 mysetw.add(key);
 console.log(mySet.size);
+console.log(mySet.size);
+//-----------------Map-------------------
+var myMap = new Map();
+myMap.set("fname", "Chandlar");
+myMap.set("age", 30);
+console.log(myMap.get("fname"));
+var ob1 = {};
+var ob2 = {};
+myMap.set(ob1, 10);
+myMap.set(ob2, 20);
+console.log(myMap.get(ob1));
+console.log(myMap.size);
+console.log(myMap.has(20));
+myMap.delete("fname");
+console.log(myMap.size);
