@@ -29,3 +29,14 @@ console.log(myMap.size);
 console.log(myMap.has(20));
 myMap.delete("fname");
 console.log(myMap.size);
+console.log(myMap.keys());
+console.log(myMap.values());
+for (var _i = 0, _a = myMap.values(); _i < _a.length; _i++) {
+    var value = _a[_i];
+    console.log(value);
+}
+var numbers = [2, 4, 6, 8];
+function arrayFunction(element, index, array) {
+    console.log("arr[" + index + "] = " + element);
+}
+;

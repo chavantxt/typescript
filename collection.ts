@@ -39,3 +39,18 @@ console.log(myMap.size);
 console.log(myMap.has(20));
 myMap.delete("fname");
 console.log(myMap.size);
+
+console.log(myMap.keys());
+console.log(myMap.values());
+
+
+for(let value of myMap.values()){
+    console.log(value);
+}
+
+var numbers=[2,4,6,8];
+
+function arrayFunction(element:any,index:any,array:any[]){
+    console.log("arr["+index+"] = "+element);
+};
+
